@@ -1,0 +1,2 @@
+docker kill peer0.nsmarts.co.kr couchdb0 peer1.nsmarts.co.kr couchdb1 peer2.nsmarts.co.kr orderer.nsmarts.co.kr orderer2.nsmarts.co.kr
+docker rm peer0.nsmarts.co.kr couchdb0 peer1.nsmarts.co.kr couchdb1 peer2.nsmarts.co.kr orderer.nsmarts.co.kr orderer2.nsmarts.co.kr -v

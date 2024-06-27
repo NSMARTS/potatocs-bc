@@ -1,0 +1,1 @@
+docker-compose -f ../compose/compose-vice-kr.yaml up -d
