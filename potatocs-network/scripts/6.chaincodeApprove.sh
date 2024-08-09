@@ -378,7 +378,7 @@ export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/../organizations/peerOrganizations/nsm
 export CC_NAME=leave
 export CC_VERSION=v1
 # 패키지 아이디는 매번 변경된다.
-export PACKAGE_ID=leave_v1:9506543c6f117c5a6969a67b22dcae6618c27101506ac4dca0f6b557bb55e02d
+export PACKAGE_ID=leave_v1:596c9f413579d3e79bff04fa8e70f245f7df1cbb06becc7910aed9239759e102
 
 ../../bin/peer lifecycle chaincode approveformyorg  --peerAddresses localhost:7051 --tlsRootCertFiles ${PWD}/../organizations/peerOrganizations/nsmarts.co.kr/peers/peer0.nsmarts.co.kr/tls-msp/tlscacerts/tls-0-0-0-0-5054.pem  --peerAddresses localhost:9051 --tlsRootCertFiles ${PWD}/../organizations/peerOrganizations/nsmarts.co.kr/peers/peer1.nsmarts.co.kr/tls-msp/tlscacerts/tls-0-0-0-0-5054.pem  -o localhost:7050 --tls --cafile $ORDERER_CA --channelID vice-krchannel --name $CC_NAME --version $CC_VERSION --init-required --sequence 1 --waitForEvent --package-id $PACKAGE_ID
 
@@ -394,7 +394,7 @@ export CORE_PEER_ADDRESS=localhost:11051
 export CC_NAME=leave
 export CC_VERSION=v1
 # 패키지 아이디는 매번 변경된다.
-export PACKAGE_ID=leave_v1:9506543c6f117c5a6969a67b22dcae6618c27101506ac4dca0f6b557bb55e02d
+export PACKAGE_ID=leave_v1:596c9f413579d3e79bff04fa8e70f245f7df1cbb06becc7910aed9239759e102
 
 ../../bin/peer lifecycle chaincode approveformyorg  --peerAddresses localhost:11051 --tlsRootCertFiles ${PWD}/../organizations/peerOrganizations/vice.com/peers/peer0.vice.com/tls-msp/tlscacerts/tls-0-0-0-0-5054.pem  --peerAddresses localhost:13051 --tlsRootCertFiles ${PWD}/../organizations/peerOrganizations/vice.com/peers/peer1.vice.com/tls-msp/tlscacerts/tls-0-0-0-0-5054.pem  -o localhost:7050 --tls --cafile $ORDERER_CA --channelID vice-krchannel --name $CC_NAME --version $CC_VERSION --init-required --sequence 1 --waitForEvent --package-id $PACKAGE_ID
 
@@ -413,7 +413,7 @@ export CORE_PEER_ADDRESS=localhost:15051
 export CC_NAME=leave
 export CC_VERSION=v1
 # 패키지 아이디는 매번 변경된다.
-export PACKAGE_ID=leave_v1:9506543c6f117c5a6969a67b22dcae6618c27101506ac4dca0f6b557bb55e02d
+export PACKAGE_ID=leave_v1:596c9f413579d3e79bff04fa8e70f245f7df1cbb06becc7910aed9239759e102
 
 ../../bin/peer lifecycle chaincode approveformyorg  --peerAddresses localhost:15051 --tlsRootCertFiles ${PWD}/../organizations/peerOrganizations/vice-kr.co.kr/peers/peer0.vice-kr.co.kr/tls-msp/tlscacerts/tls-0-0-0-0-5054.pem  --peerAddresses localhost:17051 --tlsRootCertFiles ${PWD}/../organizations/peerOrganizations/vice-kr.co.kr/peers/peer1.vice-kr.co.kr/tls-msp/tlscacerts/tls-0-0-0-0-5054.pem  -o localhost:7050 --tls --cafile $ORDERER_CA --channelID vice-krchannel --name $CC_NAME --version $CC_VERSION --init-required --sequence 1 --waitForEvent --package-id $PACKAGE_ID
 
@@ -458,7 +458,7 @@ export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/../organizations/peerOrganizations/nsm
 export CC_NAME=leave
 export CC_VERSION=v1
 # 패키지 아이디는 매번 변경된다.
-export PACKAGE_ID=leave_v1:9506543c6f117c5a6969a67b22dcae6618c27101506ac4dca0f6b557bb55e02d
+export PACKAGE_ID=leave_v1:596c9f413579d3e79bff04fa8e70f245f7df1cbb06becc7910aed9239759e102
 
 ../../bin/peer lifecycle chaincode approveformyorg  --peerAddresses localhost:7051 --tlsRootCertFiles ${PWD}/../organizations/peerOrganizations/nsmarts.co.kr/peers/peer0.nsmarts.co.kr/tls-msp/tlscacerts/tls-0-0-0-0-5054.pem  --peerAddresses localhost:9051 --tlsRootCertFiles ${PWD}/../organizations/peerOrganizations/nsmarts.co.kr/peers/peer1.nsmarts.co.kr/tls-msp/tlscacerts/tls-0-0-0-0-5054.pem  -o localhost:7050 --tls --cafile $ORDERER_CA --channelID vicechannel --name $CC_NAME --version $CC_VERSION --init-required --sequence 1 --waitForEvent --package-id $PACKAGE_ID
 
@@ -474,7 +474,7 @@ export CORE_PEER_ADDRESS=localhost:11051
 export CC_NAME=leave
 export CC_VERSION=v1
 # 패키지 아이디는 매번 변경된다.
-export PACKAGE_ID=leave_v1:9506543c6f117c5a6969a67b22dcae6618c27101506ac4dca0f6b557bb55e02d
+export PACKAGE_ID=leave_v1:596c9f413579d3e79bff04fa8e70f245f7df1cbb06becc7910aed9239759e102
 
 ../../bin/peer lifecycle chaincode approveformyorg  --peerAddresses localhost:11051 --tlsRootCertFiles ${PWD}/../organizations/peerOrganizations/vice.com/peers/peer0.vice.com/tls-msp/tlscacerts/tls-0-0-0-0-5054.pem  --peerAddresses localhost:13051 --tlsRootCertFiles ${PWD}/../organizations/peerOrganizations/vice.com/peers/peer1.vice.com/tls-msp/tlscacerts/tls-0-0-0-0-5054.pem  -o localhost:7050 --tls --cafile $ORDERER_CA --channelID vicechannel --name $CC_NAME --version $CC_VERSION --init-required --sequence 1 --waitForEvent --package-id $PACKAGE_ID
 
@@ -521,7 +521,7 @@ export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/../organizations/peerOrganizations/nsm
 export CC_NAME=leave
 export CC_VERSION=v1
 # 패키지 아이디는 매번 변경된다.
-export PACKAGE_ID=leave_v1:9506543c6f117c5a6969a67b22dcae6618c27101506ac4dca0f6b557bb55e02d
+export PACKAGE_ID=leave_v1:596c9f413579d3e79bff04fa8e70f245f7df1cbb06becc7910aed9239759e102
 
 ../../bin/peer lifecycle chaincode approveformyorg  --peerAddresses localhost:7051 --tlsRootCertFiles ${PWD}/../organizations/peerOrganizations/nsmarts.co.kr/peers/peer0.nsmarts.co.kr/tls-msp/tlscacerts/tls-0-0-0-0-5054.pem  --peerAddresses localhost:9051 --tlsRootCertFiles ${PWD}/../organizations/peerOrganizations/nsmarts.co.kr/peers/peer1.nsmarts.co.kr/tls-msp/tlscacerts/tls-0-0-0-0-5054.pem  -o localhost:7050 --tls --cafile $ORDERER_CA --channelID nsmartschannel --name $CC_NAME --version $CC_VERSION --init-required --sequence 1 --waitForEvent --package-id $PACKAGE_ID
 
